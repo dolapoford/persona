@@ -1,0 +1,162 @@
+.preno-main {
+  /* display: flex; */
+  max-width: 100%;
+  width: 1100px;
+  margin: 0 auto;
+}
+legend {
+  color: red;
+  font-size: 14px;
+}
+fieldset {
+  background: #fff;
+  border: 1px solid #5b6f82;
+  border-radius: 6px;
+  padding: 20px 50px;
+}
+.preno-error {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background: #feedb7aa;
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 5px;
+}
+.preno-error i {
+  color: red;
+  font-size: 24px;
+  flex: 1;
+  margin-top: 5px;
+}
+.preno-error-text p {
+  color: #9e781c;
+  font-size: 14px;
+}
+
+.preno-help {
+  margin: 20px auto;
+  max-width: 100%;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 20px;
+}
+.preno-help-icon i {
+  font-size: 24px;
+  color: #68b3dd;
+}
+/* .preno-help-boxs {
+    background: #e8f0fe;
+    width: 100%;
+    border-radius: 5px;
+    height: 0%;
+    padding: 7px 10px 7px 10px;
+} */
+
+.preno-sucess{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #D4EDDA;
+    color: #147129;
+    border-radius: 5px;
+}
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.pagination div{
+    background-color: #3AA1DA;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+}
+.pagination p{
+    margin-top: 5px;
+    cursor: pointer;
+    
+
+}
+.preno-content-box{
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: #FFFFFF;
+    margin-top:20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.preno-content-nre{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+.preno-content-nre-no{
+    display: flex;
+    gap: 10px;
+}
+.preno-content-nre-prescritta{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+
+}
+.preno-content-nre-prescritta h5{
+    color: #1CEA31;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color:#00000040;
+   
+}
+.preno-content-date{
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+
+}
+.preno-help-input{
+    display: flex;
+    gap: 20px;
+    /* height: 30px; */
+   
+}
+.preno-help-input input{
+    border-radius: 3px;
+    background:  #E8F0FE;
+    color: #000;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.preno-help-input button{
+    display: flex;
+    border: none;
+    outline: none;
+    background:#3AA1DA;
+    color: #fff;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.preno-help-input button:hover {
+    border: 1px solid #3AA1DA;
+    background: transparent;
+    color: #3AA1DA;
+    transition: 1s ease-in-out; 
+}
